@@ -1,0 +1,57 @@
+article.movie-article {
+    display:flex;
+    align-items: center;
+    width: 55%;
+    gap: 15px;
+    color: white;
+}
+main.movie-search-results {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article.movie-article > img {
+    height: 350px;
+}
+
+header.movie-header{
+    display:flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 5px;
+}
+header.movie-header > h3 {
+    margin:0;
+    margin-right: 15px;
+    font-size:24px;
+}
+header.rating-star {
+    color: yellow;
+}
+section.movie-information{
+    display:flex;
+    gap: 25px;
+    font-size: 16px;
+}
+
+section.movie-information > button {
+    display:flex;
+    align-items:center;
+
+    border: none;
+    background: rgba(0,0,0,0);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+section.movie-information > button:hover {
+    border-radius:5px;
+    border: white 2px solid;
+}
+
+section.movie-description {
+    color:  #A5A5A5;
+}
